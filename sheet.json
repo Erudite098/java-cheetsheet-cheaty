@@ -1,0 +1,92 @@
+{
+    "name": "Java Fundamentals",
+    "description": "A cheatsheet for fundamental Java concepts.",
+    "author": "Zania",
+    "email": "kerzania.macalde1029@gmail.com",
+    "repository": "http://your-repository-link.com",
+    "version": "1.0",
+    "sections": {
+        "Data Types": {
+            "Integer (int)": {
+                "description": "Stores integers (whole numbers) without decimals.",
+                "code": "int myNumber = 5;"
+            },
+            "Double (double)": {
+                "description": "Stores floating-point numbers with decimals.",
+                "code": "double myDouble = 5.99;"
+            },
+            "Character (char)": {
+                "description": "Stores a single character/letter.",
+                "code": "char myLetter = 'A';"
+            },
+            "Boolean (boolean)": {
+                "description": "Stores true or false values.",
+                "code": "boolean isJavaFun = true;"
+            },
+            "String": {
+                "description": "Stores sequences of characters (text).",
+                "code": "String greeting = \"Hello, World!\";"
+            }
+        },
+        "Control Structures": {
+            "If-Else Statement": {
+                "description": "Executes a block of code if a condition is true, and another block if it's false.",
+                "code": "if (condition) { ... } else { ... }"
+            },
+            "For Loop": {
+                "description": "Loops a block of code a certain number of times.",
+                "code": "for (int i = 0; i < 5; i++) { ... }"
+            },
+            "While Loop": {
+                "description": "Loops a block of code while a condition is true.",
+                "code": "while (condition) { ... }"
+            },
+            "Switch Statement": {
+                "description": "Selects one of many blocks of code to be executed.",
+                "code": "switch (variable) { case x: ... break; }"
+            }
+        },
+        "Operators": {
+            "Addition (+)": {
+                "description": "Adds two values together.",
+                "code": "int sum = a + b;"
+            },
+            "Equality (==)": {
+                "description": "Checks if two values are equal.",
+                "code": "if (a == b) { ... }"
+            },
+            "Logical AND (&&)": {
+                "description": "Returns true if both conditions are true.",
+                "code": "if (a && b) { ... }"
+            }
+        },
+        "Classes and Objects": {
+            "Class Declaration": {
+                "description": "Defines a new class.",
+                "code": "class MyClass { ... }"
+            },
+            "Object Creation": {
+                "description": "Creates an object of a class.",
+                "code": "MyClass obj = new MyClass();"
+            },
+            "Method Call": {
+                "description": "Calls a method on an object.",
+                "code": "obj.methodName();"
+            }
+        },
+        "Methods": {
+            "Method Declaration": {
+                "description": "Defines a method.",
+                "code": "returnType methodName(parameters) { ... }"
+            },
+            "Void Method": {
+                "description": "Indicates that the method does not return a value.",
+                "code": "void myMethod() { ... }"
+            },
+            "Static Method": {
+                "description": "Indicates that the method belongs to the class rather than an instance of the class.",
+                "code": "static void myStaticMethod() { ... }"
+            }
+        }
+    }
+}
